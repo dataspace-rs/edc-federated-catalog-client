@@ -7,7 +7,7 @@ async fn main() {
   struct Args {
     #[clap(long, short, env)]
     endpoint: String,
-    #[clap(long, short='t', env)]
+    #[clap(long, short = 't', env)]
     bearer_token: Option<String>,
   }
 

@@ -1,4 +1,4 @@
-use super::Policy;
+use edc_connector_client::types::policy::Policy;
 use serde::{Deserialize, Serialize};
 use serde_with::{OneOrMany, formats::PreferMany, serde_as};
 
